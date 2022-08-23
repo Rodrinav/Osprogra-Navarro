@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OSPROGRA</title>
+
+  <!-- BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="css/estilo.css" />
   <!-- FAVICON -->
@@ -15,20 +18,34 @@
 </head>
 
 <body class="gridPadreIndex">
-  <div>
-    <img class="asistenteVirtual" src="./img/Logo Asistente virtual.png" alt="Logo Asistente virtual" />
-  </div>
+  
   <header>
     <h1 data-aos="fade-right">OSPROGRA</h1>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./Nosotros.html">Nosotros</a></li>
-        <li><a href="./Servicios.html">Servicios</a></li>
-        <li><a href="./Afiliados.html">Afiliados</a></li>
-        <li><a href="./Contacto.html">Contacto</a></li>
-        
-      </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Afiliados.html">Afiliados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <!-- Seccion Publicidad -->
@@ -48,11 +65,11 @@
   <main>
 
     <h2 class="titulo-noticias">Noticias</h2>
-    <div class="noticias">
+    <div class="noticias row">
       <!-- Noticia Uno  -->
-      <div class="covid">
+      <div class="covid col">
         <h2>Nueva Vacuna Contra el Covid</h2>
-        <img src="./img/Covid.jpg" alt="Foto Covid" />
+        <img data-aos="fade-right" src="./img/Covid.jpg" alt="Foto imagen aplicacion" />
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
@@ -70,9 +87,9 @@
 
       <!-- Noticia Dos  -->
 
-      <div class="viruelaDeMono">
-        <h2>Nuevos Casos de Viruela de Mono</h2>
-        <img src="./img/Viruela de Mono.png" alt="Foto Viruela de Mono" />
+      <div class="viruelaDeMono col">
+        <h2>Descarga la Nueva Aplicacion</h2>
+        <img data-aos="fade-right" src="./img/imagen aplicacion.jpg" alt="Foto imagen de aplicacion" />
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
@@ -97,7 +114,6 @@
 
         <a href="http://instagram.com" target="_blank"> <img class="logoInstagram" src="./img/Logo Instagram.png"
             alt="Logo Instagra" /></a>
-
         <a href="http://Facebook.com" target="_blank"> <img class="logoFacebook" src="./img/Logo Facebook.jpg"
             alt="Logo Facebook" /></a>
           <a href="http://Twitter.com" target="_blank"> <img class="logoTwitter" src="./img/Logo Twitter.png"
@@ -110,6 +126,8 @@
   <script>
     AOS.init();
   </script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
