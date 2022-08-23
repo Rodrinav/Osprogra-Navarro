@@ -482,6 +482,12 @@ footer {
         margin: 15px 0px 15px 0px ;
     }
 
+    .noticiaAplicacion p {
+        font-weight: bold ;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
 
 
     /* footer */
