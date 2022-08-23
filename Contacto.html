@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <!-- FAVICON -->
     <link rel="shortcut icon" href="img/Logo Osprogra.jpg" type="image/x-icon" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>OSPROGRA</h1>
+      <h1 data-aos="fade-right">OSPROGRA</h1>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +47,7 @@
     
     <main class="mainContacto">
       
-      <div class="contacto container">
+      <div data-aos="flip-up" class="contacto container">
         <!-- Formulario -->
         <div class="contenedorFormulario">
           <form>
@@ -88,6 +90,10 @@
         <h3 class="footer">Todos los derechos reservados por Osprogra</h3>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
