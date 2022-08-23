@@ -23,7 +23,7 @@ h1 {
     font-size: 60px;
     color: black;
 }
-nav{
+/* nav{
     display: flex;
     justify-content: flex-end;
     margin-right: 15px;
@@ -48,7 +48,7 @@ li a {
     font-weight: bold;
     font-size: 25px;
 
-}
+} */
 
 .seccion-publicidad {
     text-align: center;
@@ -66,6 +66,7 @@ h2 {
 .noticias{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 .noticias img{
     width: 30rem;
@@ -73,8 +74,9 @@ h2 {
 }
 
 .noticias p{
-    font-weight: bold ;
+    font-weight:bold ;
     text-align: center;
+    
 }
 .covid{
     
@@ -83,11 +85,11 @@ h2 {
     text-align: center;
     font-size: 20px;
 }
-.viruelaDeMono{
+.noticiaAplicacion{
     
     text-align: center;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 15px;
     font-size: 20px;
     
 }
@@ -95,6 +97,7 @@ h2 {
 .seccion-redes{
     clear: both;
     background-color: #748CAB;
+    margin-top: 80px;
     
 }
 
@@ -123,7 +126,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #F0EBD8;
-    height: auto;
+    
 }
 
 .logoInstagram {
@@ -146,22 +149,23 @@ h2 {
     
     text-align: center;
 }
-.texto {
+/* .texto {
     display: flex;
     font-weight: bold;
     justify-content: space-evenly;
     padding: 20px;
-}
+} */
 .texto p {
     font-size: 18px;
     padding: 10px;
+    font-weight: bold;
 }
 
-.texto img {
+/* .texto img {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 25px 10px 10px 4px gray;
-}
+}  */
 /* SERVICIOS*/
 
 .lista1 {
