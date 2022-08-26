@@ -12,9 +12,9 @@
 
 header{
     width: 100%;
-    height: 200px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
-    background-color: #748CAB;
+    background-color: #0052d4;
 
 } 
 
@@ -23,37 +23,26 @@ h1 {
     font-size: 60px;
     color: black;
 }
-/* nav{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 15px;
-    
-}
-ul li a {
-    padding: 7px;
-    box-sizing: border-box;
-}
-header li{
-    display: inline;
-    margin: 5px; 
-    padding: 10px;
-}
-header a {
-    text-decoration: none;
-}
-li a {
+
+nav {
+    font-size: 20px;
     font-weight: bold;
-    font-size: 25px;
-} */
+}
+
+
 
 .seccion-publicidad {
+    justify-content: center;
     text-align: center;
-    background-color: #ccc;
+
+    
 }
 
 h2 {
+    text-align: center;
     font-size: 40px;
 }
+
 /* Noticias */
 
 .titulo-noticias{
@@ -70,7 +59,7 @@ h2 {
 }
 
 .noticias p{
-    font-weight:bold ;
+    font-weight:bold;
     text-align: center;
     
 }
@@ -92,19 +81,15 @@ h2 {
 /* redes */
 .seccion-redes{
     clear: both;
-    background-color: #748CAB;
-    margin-top: 80px;
+    background-color: #0052d4;
+    bottom: 5px;
+    
     
 }
 
 .redes img {
     margin-right: 20px;
     
-}
-.asistenteVirtual {
-    position: fixed;
-    max-width: 3%;
-    margin-left: 1830px;
 }
 
 .redes {
@@ -113,7 +98,10 @@ h2 {
     line-height: 1.5;
     font-weight: bold;
     font-size: 18px;
-    color: #F0EBD8;
+    color: black;
+    height: 40px;
+    
+    
 }
 .footer {
     text-align: center;
@@ -121,22 +109,25 @@ h2 {
     line-height: 1.5;
     font-weight: bold;
     font-size: 18px;
-    color: #F0EBD8;
+    color: black;
+
+
+    
     
 }
 
 .logoInstagram {
     text-align: center;
-    max-width: 3%;
+    max-width: 2%;
     
 }
 .logoFacebook {
     text-align: center;
-    max-width: 3%;
+    max-width: 2%;
 }
 .logoTwitter {
     text-align: center;
-    max-width: 3%;
+    max-width: 2%;
 } 
 
 /* NOSOTROS*/
@@ -145,23 +136,13 @@ h2 {
     
     text-align: center;
 }
-/* .texto {
-    display: flex;
-    font-weight: bold;
-    justify-content: space-evenly;
-    padding: 20px;
-} */
+
 .texto p {
     font-size: 18px;
     padding: 10px;
     font-weight: bold;
 }
 
-/* .texto img {
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: 25px 10px 10px 4px gray;
-}  */
 /* SERVICIOS*/
 
 .lista1 {
@@ -178,23 +159,27 @@ h2 {
 
 
 /* CONTACTO */
-  /* .contacto{
+
+.mapa p{
+    font-weight: bold;
+
+}
+.contacto{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent;
     box-sizing: border-box;
     padding: 10rem;
-}  */
+}  
 
 form{
     display: flex;
     flex-direction: column;
     row-gap: 12px;
-    background-color: #748CAB;
     border: black solid 1px;
     width: 100%;
-    height: 530px;
+    height: 600px;
     border-radius: 0.5rem;
     box-sizing: border-box;
     padding: 2rem;
@@ -203,20 +188,21 @@ form{
     
 }
 input{
-border-radius: 0.5rem;
-height: 2rem;
-margin-top: 20px;
-}
+    border-radius: 0.5rem;
+    font-weight: bold;
+    height: 2rem;
+    margin-top: 20px;
+    box-sizing: border-box;
+} 
     
 .contenedorFormulario{
-    width: 100%;
-    height: 610px;
+    width: 500px;
+    height: auto;
     background-color: transparent;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-} */
+    box-sizing: border-box;
+} 
 
 /* AFILIADOS  */
 
@@ -308,6 +294,14 @@ margin-top: 20px;
 
 
 /* GRID AREA INDEX */
+.gridPadreIndex {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "section"
+    "main"
+    "footer";
+}
 header {
     grid-area: header;
 }
@@ -323,39 +317,101 @@ footer {
     grid-area: footer;
 }
 
-.gridPadreIndex {
+
+
+/*     GRID AREA SERVICIOS      */
+
+.gridPadreServicios {
     display: grid;
     grid-template-areas: 
     "header"
-    "section"
     "main"
     "footer";
 }
 
+.headerServicios {
+    grid-area: header;
+}
 
 
+.mainServicios {
+    grid-area: main;
+}
+
+
+.footerServicios {
+    grid-area: footer;
+}
+
+
+
+/*     GRID AREA AFILIADOS      */
+
+.gridPadreAfiliados {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.headerAfiliados {
+    grid-area: header;
+}
+
+
+.mainAfiliados {
+    grid-area: main;
+}
+
+
+.footerAfiliados {
+    grid-area: footer;
+}
+
+/*     GRID AREA CONTACTO       */
+.gridPadreContacto {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.headerContacto {
+    grid-area: header;
+}
+
+
+.mainContaco {
+    grid-area: main;
+}
+
+
+.footerContacto {
+    grid-area: footer;
+}
 
 
 /* responsive hasta los 375px */
 
 @media all and (max-width:375px) {
     
-    /*bot */
-    .asistenteVirtual{
-        display: none;
-    }
+
+
   /* header */
     header{
         width: 100%;
-        height: 200px;
+        height: auto;
+        
     }
     
-    h1 {
+     h1 {
         text-align: center;
         
     }
     
-    
+
 
 
     /*publicidad SECTION */
@@ -381,7 +437,7 @@ footer {
         }
         .seccion-publicidad h2{
             display: none;
-;
+
         }
     
         iframe{
@@ -398,10 +454,9 @@ footer {
 
  /* main */
     main{
-        display: grid;
-        grid-template-rows: 10% 90%;
         text-align: center;
         width: 100%;
+        height: auto;
     }
 
     h2 {
@@ -427,60 +482,45 @@ footer {
         height: auto;
     }
 
-    /* .covid{
+    .covid{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: auto;
         justify-content: center;
-        background-color: rgba(204, 204, 204, 0.444);
         padding-bottom: 10%;
-        padding-left: 0;
-        padding-right: 0;
         text-align: center;
-        margin: 15px 0px 15px 0px ;
-    } */
+
+    } 
 
     .covid h2{
         margin-bottom: 10px;
     }
-    /* .covid img{
-        width: 100%;
-        padding: 0%;
-        height: auto;
-
-    } */
-
-
+   
     .covid p{
         font-weight: bold ;
         text-align: center;
-        padding: 0.5rem;
+        height: auto;
+        width: auto;
 
     }
 
     input{
-        box-shadow: 15px 10px 20px 1px rgba(0, 0, 0, 0.555);
         font-weight: bold ;
         text-align: center;
-        padding: 0.5rem;
-        width: 70%;
+        justify-content: center;
+        width: 100%;
     }
 
 
-    /* .noticiaAplicacion{
+     .noticiaAplicacion{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: auto;
         justify-content: center;
-        background-color: rgba(204, 204, 204, 0.444);
-        padding-bottom: 10%;
-        padding-left: 0;
-        padding-right: 0;
         text-align: center;
-        margin: 15px 0px 15px 0px ;
-    } */
+        margin-bottom: 95px;
+    } 
 
     .noticiaAplicacion p {
         font-weight: bold ;
@@ -493,21 +533,19 @@ footer {
     /* footer */
 
     .footer {
-        font-size: 1.2rem;
-        height: auto;
         display: flex;
+        font-size: 1.2rem;
         justify-content: center;
-        align-items: flex-end;
+        
     }
 
     .seccion-redes{
-        clear:none;
         display: flex;
         flex-wrap: wrap;
-        background-color: #748CAB;
+        background-color: #0052d4;
         justify-content: center;
         padding: 0.3rem;
-        height: 100px;
+        
         
     }
 
@@ -563,63 +601,90 @@ footer {
         height: auto;
     }
     /* SERVICIOS*/
+
+    /* .gridPadreServicios {
+        display: grid;
+    }
     
     .lista1 {
         display: flex;
         justify-content: center;
 
-        padding: 1.9rem;
-        margin: 0px;
         font-size: 1.2rem; 
     }
     .servicios {
         display: flex;
         justify-content: center;
-    }
+        width: 100%;
+    } */
     
     
     
     /* CONTACTO */
 
 
-    /* .maincontacto {
-        display: flex;
-        flex-wrap: wrap;
+    .mapa {
         width: 100%;
+        justify-content: center;
+        text-align: center;
+    
     }
-    /* .contacto{
+
+
+     .maincontacto {
+        display: flex;
+        width: auto;
+        
+    } 
+     .contacto{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
         width: 100%;
+        padding: 10rem;
+        
     }
     
-    form{
+     form {
         display: flex;
-        flex-direction: wrap;
-        background-color: #748CAB;
         border: black solid 1px;
         width: 100%;
-        height: 520px;
+        height: auto;
         border-radius: 0.5rem;
         box-sizing: border-box;
-        padding: 2rem;
+        text-align: start;
+        
         
         
         
     }
     input{
-    border-radius: 0.5rem;
-    height: 2rem;
-    margin-top: 20px;
-    width: 100%;
+        border-radius: 0.5rem;
+        height: 2rem;
+        margin-top: 20px;
+        width: 100%;
     }
     /* AFILIADOS  */
+    .main-afiliados {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+    }
 
-    
-    
+    .tituloGrilla {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .tituloAfiliados {
+        text-align: center;
+        justify-content: center;
+    }
+} 
 
     
 
@@ -630,22 +695,15 @@ footer {
 
 @media all and (min-width:376px) and (max-width: 900px) {
     
-    /*bot */
-    .asistenteVirtual{
-        display: none;
-    }
+    
  /* header */
     header{
-        display: grid;
         width: 100%;
-        height: 200px;
-        justify-content: center;
-        align-items: center;
+        height: auto;
     }
     
     h1 {
         text-align: center;
-        font-size: 1.8rem;
         color: black;
     }
      nav{
@@ -659,7 +717,6 @@ footer {
             display: grid;
             text-align: center;
             width: 100%;
-            height: 300px;
         }    
     
         .seccion-publicidad {
@@ -674,14 +731,10 @@ footer {
 
 
         }
-        .seccion-publicidad h2{
-            display: none;
-;
-        }
     
         iframe{
             width: 90%;
-            height: auto;
+            height: 350px;
 
         }
     
@@ -699,7 +752,6 @@ footer {
     }
 
     h2 {
-        font-size: 1.5rem;
         text-align: center;
     }
 
@@ -727,12 +779,8 @@ footer {
         width: 100%;
         height: auto;
         justify-content: center;
-        background-color: rgba(204, 204, 204, 0.444);
         padding-bottom: 10%;
-        padding-left: 0;
-        padding-right: 0;
-        text-align: center;
-        margin: 15px 0px 15px 0px ;
+
     }
 
     .covid h2{
@@ -754,11 +802,9 @@ footer {
     }
 
     input{
-        box-shadow: 15px 10px 20px 1px rgba(0, 0, 0, 0.555);
-        font-weight: bold ;
-        text-align: center;
-        padding: 0.5rem;
-        width: 70%;
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
     }
 
 
@@ -768,12 +814,8 @@ footer {
         width: 100%;
         height: auto;
         justify-content: center;
-        background-color: rgba(204, 204, 204, 0.444);
-        padding-bottom: 10%;
-        padding-left: 0;
-        padding-right: 0;
+        padding-bottom:100px;
         text-align: center;
-        margin: 15px 0px 15px 0px ;
     }
 
     
@@ -794,7 +836,7 @@ footer {
         clear:none;
         display: flex;
         flex-wrap: wrap;
-        background-color: #748CAB;
+        background-color: #0052d4;
         justify-content: center;
         padding: 0.3rem;
         height: 100px;
@@ -860,8 +902,7 @@ footer {
     
     .lista1 {
         display: flex;
-        justify-content: center;
-
+        text-align: start;
         padding: 1.9rem;
         margin: 0px;
         font-size: 1.2rem; 
@@ -875,16 +916,25 @@ footer {
     
     /* CONTACTO */
 
-    /* .mainContacto {
+    .mapa {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .mainContacto {
         display: flex;
         flex-wrap: wrap;
         width: auto;
         justify-content: center;
-        text-align: center;
+        text-align: start;
+        height: auto;
     }
     .contacto{
         display: flex;
         padding: 5rem;
+        height: auto;
        
     }
     
@@ -892,108 +942,51 @@ footer {
         display: flex;
         flex-direction: column;
         row-gap: 12px;
-        background-color: #748CAB;
         border: black solid 1px;
         width: 100%;
-        height: 500px;
+        height: auto;
         border-radius: 0.5rem;
         box-sizing: border-box;
-        
-        
-        
+        height: auto;
         
     }
+
+
+    
     input{
     border-radius: 0.5rem;
     height: 2rem;
     width: 90%;
     justify-items: center;
+    box-sizing: border-box;
     }
         
     .contenedorFormulario{
         display: flex;
-        width: 500px;
         justify-content: center;
-    }*/
+        height: auto;
+    }
     
     /* AFILIADOS  */
     
     .main-afiliados {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         width: 100%;
-    }
-
-    .contenedorGrilla {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        margin: 100px;
     }
 
     .tituloGrilla {
         display: flex;
-        flex-wrap: wrap;
         text-align: center;
         justify-content: center;
         flex-direction: column;
-        width: 100%
-    }
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    } 
 
-    .grilla1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-        
     
-    }
-    
-    .grilla {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        border: 1px solid black;
-        font-size: 19px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        border-radius: 10px;
-    
-    }
-    .fecha {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        background-color: rgb(192, 189, 189);
-        font-size: 19px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        border: 2px black solid;
-        justify-content: center;
-    }
-    .especialidad{
-        background-color: rgb(192, 189, 189);
-        font-size: 19px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        border: 2px black solid;
-    }
-    .hora {
-        background-color: rgb(192, 189, 189);
-        font-size: 19px;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        border: 2px black solid;
-    }
 }
