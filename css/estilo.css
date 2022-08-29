@@ -160,6 +160,10 @@ h2 {
 
 /* CONTACTO */
 
+.bodyContacto {
+    min-height: 100vh;
+}
+
 .mapa p{
     font-weight: bold;
 
