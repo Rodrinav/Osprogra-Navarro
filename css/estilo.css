@@ -1,619 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Ibarra+Real+Nova&family=Oswald&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 /* GOOGLE FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ibarra+Real+Nova&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ibarra+Real+Nova&family=Oswald&display=swap');
-
-
-
-header{
-    width: 100%;
-    height: auto;
-    font-family: 'Poppins', sans-serif;
-    background-color: #0052d4;
-
-} 
-
-h1 {
+header {
+  width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: tomato; }
+  header h1 {
     text-align: left;
     font-size: 60px;
-    color: black;
-}
-
-nav {
+    color: violet; }
+  header nav {
     font-size: 20px;
-    font-weight: bold;
-}
-
-
+    font-weight: bold; }
 
 .seccion-publicidad {
-    justify-content: center;
-    text-align: center;
-
-    
-}
+  justify-content: center;
+  text-align: center; }
 
 h2 {
-    text-align: center;
-    font-size: 40px;
-}
+  text-align: center;
+  font-size: 40px; }
 
 /* Noticias */
+.titulo-noticias {
+  text-align: center; }
 
-.titulo-noticias{
-    text-align: center;
-}
-.noticias{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-.noticias img{
-    width: 30rem;
-    height: 22rem;
-}
+.noticias {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; }
 
-.noticias p{
-    font-weight:bold;
-    text-align: center;
-    
-}
-.covid{
-    
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-}
-.noticiaAplicacion{
-    
-    text-align: center;
-    box-sizing: border-box;
-    padding: 15px;
-    font-size: 20px;
-    
-}
+.noticias img {
+  width: 30rem;
+  height: 22rem; }
+
+.noticias p {
+  font-weight: bold;
+  text-align: center; }
+
+.covid {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px; }
+
+.noticiaAplicacion {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 20px; }
+
 /* redes */
-.seccion-redes{
-    clear: both;
-    background-color: #0052d4;
-    bottom: 5px;
-    
-    
-}
+.seccion-redes {
+  clear: both;
+  background-color: tomato;
+  bottom: 5px; }
 
 .redes img {
-    margin-right: 20px;
-    
-}
+  margin-right: 20px; }
 
 .redes {
-    text-align: center;
-    font-family: 'Ibarra Real Nova', serif;
-    line-height: 1.5;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
-    height: 40px;
-    
-    
-}
+  text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  height: 40px; }
+
 .footer {
-    text-align: center;
-    font-family: 'Ibarra Real Nova', serif;
-    line-height: 1.5;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
-
-
-    
-    
-}
+  text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 18px;
+  color: black; }
 
 .logoInstagram {
-    text-align: center;
-    max-width: 2%;
-    
-}
+  text-align: center;
+  max-width: 2%; }
+
 .logoFacebook {
-    text-align: center;
-    max-width: 2%;
-}
+  text-align: center;
+  max-width: 2%; }
+
 .logoTwitter {
-    text-align: center;
-    max-width: 2%;
-} 
+  text-align: center;
+  max-width: 2%; }
 
 /* NOSOTROS*/
-
 .titulo {
-    
-    text-align: center;
-}
+  text-align: center; }
 
 .texto p {
-    font-size: 18px;
-    padding: 10px;
-    font-weight: bold;
-}
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold; }
 
 /* SERVICIOS*/
-
 .lista1 {
-    display: flex;
-    font-weight: bold;
-    padding: 5px;
-    margin: 10px;
-    font-size: 30px; 
-}
+  display: flex;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px;
+  font-size: 30px; }
+
 .servicios {
-    text-align: center;
-}
-
-
+  text-align: center; }
 
 /* CONTACTO */
+.mapa p {
+  font-weight: bold; }
 
-.bodyContacto {
-    min-height: 100vh;
-}
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 10rem; }
 
-.mapa p{
-    font-weight: bold;
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  border: black solid 1px;
+  width: 100%;
+  height: 600px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 2rem; }
 
-}
-.contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    box-sizing: border-box;
-    padding: 10rem;
-}  
+input {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  height: 2rem;
+  margin-top: 20px;
+  box-sizing: border-box; }
 
-form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-    border: black solid 1px;
-    width: 100%;
-    height: 600px;
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-    padding: 2rem;
-    
-    
-    
-}
-input{
-    border-radius: 0.5rem;
-    font-weight: bold;
-    height: 2rem;
-    margin-top: 20px;
-    box-sizing: border-box;
-} 
-    
-.contenedorFormulario{
-    width: 500px;
-    height: auto;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-} 
+.contenedorFormulario {
+  width: 500px;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box; }
 
 /* AFILIADOS  */
-
 .grilla1 {
-
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-    justify-content: center;
-    margin: 100px;
-    
-
-}
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  margin: 100px; }
 
 .grilla {
-    border: 1px solid black;
-    font-size: 19px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 50%;
+  border: 1px solid black;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 50%; }
 
-}
-.fecha{
-    background-color: rgb(192, 189, 189);
-    font-size: 19px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 2px black solid;
-}
-.especialidad{
-    background-color: rgb(192, 189, 189);
-    font-size: 19px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 2px black solid;
-}
-.hora{
-    background-color: rgb(192, 189, 189);
-    font-size: 19px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 2px black solid;
-}
+.fecha {
+  background-color: #c0bdbd;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px black solid; }
+
+.especialidad {
+  background-color: #c0bdbd;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px black solid; }
+
+.hora {
+  background-color: #c0bdbd;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px black solid; }
 
 .tituloAfiliados {
-    text-align: center;
-}
+  text-align: center; }
+
 .turnosAfiliados {
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-}
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px; }
 
 /******** GRID AREAS *********/
-
-
-
 /* GRID AREA NOSOTROS */
 .gridPadreNosotros {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main-nosotros"
-    "footer";
-}
+  display: grid;
+  grid-template-areas: "header" "main-nosotros" "footer"; }
 
 .headerNosotros {
-    grid-area: header;
-}
-
+  grid-area: header; }
 
 .main-nosotros {
-    grid-area: main-nosotros;
-}
-
+  grid-area: main-nosotros; }
 
 .footerNosotros {
-    grid-area: footer;
-}
-
-
+  grid-area: footer; }
 
 /* GRID AREA INDEX */
 .gridPadreIndex {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "section"
-    "main"
-    "footer";
-}
+  display: grid;
+  grid-template-areas: "header" "section" "main" "footer"; }
+
 header {
-    grid-area: header;
-}
+  grid-area: header; }
+
 section {
-    grid-area: section;
-}
+  grid-area: section; }
 
 main {
-    grid-area: main;
-}
+  grid-area: main; }
 
 footer {
-    grid-area: footer;
-}
-
-
+  grid-area: footer; }
 
 /*     GRID AREA SERVICIOS      */
-
 .gridPadreServicios {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-}
+  display: grid;
+  grid-template-areas: "header" "main" "footer"; }
 
 .headerServicios {
-    grid-area: header;
-}
-
+  grid-area: header; }
 
 .mainServicios {
-    grid-area: main;
-}
-
+  grid-area: main; }
 
 .footerServicios {
-    grid-area: footer;
-}
-
-
+  grid-area: footer; }
 
 /*     GRID AREA AFILIADOS      */
-
 .gridPadreAfiliados {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-}
+  display: grid;
+  grid-template-areas: "header" "main" "footer"; }
 
 .headerAfiliados {
-    grid-area: header;
-}
-
+  grid-area: header; }
 
 .mainAfiliados {
-    grid-area: main;
-}
-
+  grid-area: main; }
 
 .footerAfiliados {
-    grid-area: footer;
-}
+  grid-area: footer; }
 
 /*     GRID AREA CONTACTO       */
 .gridPadreContacto {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-}
+  display: grid;
+  grid-template-areas: "header" "main" "footer"; }
 
 .headerContacto {
-    grid-area: header;
-}
-
+  grid-area: header; }
 
 .mainContaco {
-    grid-area: main;
-}
-
+  grid-area: main; }
 
 .footerContacto {
-    grid-area: footer;
-}
-
+  grid-area: footer; }
 
 /* responsive hasta los 375px */
-
-@media all and (max-width:375px) {
-    
-
-
+@media all and (max-width: 375px) {
   /* header */
-    header{
-        width: 100%;
-        height: auto;
-        
-    }
-    
-     h1 {
-        text-align: center;
-        
-    }
-    
-
-
-
-    /*publicidad SECTION */
-        
-        section{
-            display: grid;
-            text-align: center;
-            width: 100%;
-            height: 300px;
-        }    
-    
-        .seccion-publicidad {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            height: auto;
-            text-align: center;
-            justify-content: center;
-            background-color: transparent;
-            margin-bottom: 1rem;
-
-
-        }
-        .seccion-publicidad h2{
-            display: none;
-
-        }
-    
-        iframe{
-            width: 100%;
-            height: auto;
-
-        }
-    
-    
-
-
-
-
-
- /* main */
-    main{
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-
-    .noticias{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    .titulo-noticias{
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .noticias img{
-        width: 100%;
-        height: auto;
-    }
-
-    .covid{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        padding-bottom: 10%;
-        text-align: center;
-
-    } 
-
-    .covid h2{
-        margin-bottom: 10px;
-    }
-   
-    .covid p{
-        font-weight: bold ;
-        text-align: center;
-        height: auto;
-        width: auto;
-
-    }
-
-    input{
-        font-weight: bold ;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-
-     .noticiaAplicacion{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 95px;
-    } 
-
-    .noticiaAplicacion p {
-        font-weight: bold ;
-        text-align: center;
-        padding: 0.5rem;
-    }
-
-
-
-    /* footer */
-
-    .footer {
-        display: flex;
-        font-size: 1.2rem;
-        justify-content: center;
-        
-    }
-
-    .seccion-redes{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #0052d4;
-        justify-content: center;
-        padding: 0.3rem;
-        
-        
-    }
-
-
-    .redes1{
-        display: none;
-    }
-
-    .redes  {
-        display: none;
-
-    }
-
-
-
-
-    /* NOSOTROS*/
-
-    .main-nosotros {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    
-    .titulo {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .texto {
-        display: flex;
-        flex-wrap: wrap;
-        font-weight: bold;
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-        justify-content: center;
-    }
-    .texto p {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 14px;
-        width: 100%;
-        
-    }
-    
-    .texto img {
-        display: flex;
-        flex-wrap: wrap;
-        box-shadow: 25px 10px 10px 4px gray;
-        width: 100%;
-        height: auto;
-    }
-    /* SERVICIOS*/
-
-    /* .gridPadreServicios {
+  header {
+    width: 100%;
+    height: auto; }
+  h1 {
+    text-align: center; }
+  /*publicidad SECTION */
+  section {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    height: 300px; }
+  .seccion-publicidad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 1rem; }
+  .seccion-publicidad h2 {
+    display: none; }
+  iframe {
+    width: 100%;
+    height: auto; }
+  /* main */
+  main {
+    text-align: center;
+    width: 100%;
+    height: auto; }
+  h2 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center; }
+  .titulo-noticias {
+    margin-top: 1rem;
+    width: 100%; }
+  .noticias img {
+    width: 100%;
+    height: auto; }
+  .covid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 10%;
+    text-align: center; }
+  .covid h2 {
+    margin-bottom: 10px; }
+  .covid p {
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    width: auto; }
+  input {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    width: 100%; }
+  .noticiaAplicacion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 95px; }
+  .noticiaAplicacion p {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem; }
+  /* footer */
+  .footer {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center; }
+  .seccion-redes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0052d4;
+    justify-content: center;
+    padding: 0.3rem; }
+  .redes1 {
+    display: none; }
+  .redes {
+    display: none; }
+  /* NOSOTROS*/
+  .main-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%; }
+  .texto {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center; }
+  .texto p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    width: 100%; }
+  .texto img {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 25px 10px 10px 4px gray;
+    width: 100%;
+    height: auto; }
+  /* SERVICIOS*/
+  /* .gridPadreServicios {
         display: grid;
     }
     
     .lista1 {
         display: flex;
         justify-content: center;
-
         font-size: 1.2rem; 
     }
     .servicios {
@@ -621,376 +416,231 @@ footer {
         justify-content: center;
         width: 100%;
     } */
-    
-    
-    
-    /* CONTACTO */
-
-
-    .mapa {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    
-    }
-
-
-     .maincontacto {
-        display: flex;
-        width: auto;
-        
-    } 
-     .contacto{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 10rem;
-        
-    }
-    
-     form {
-        display: flex;
-        border: black solid 1px;
-        width: 100%;
-        height: auto;
-        border-radius: 0.5rem;
-        box-sizing: border-box;
-        text-align: start;
-        
-        
-        
-        
-    }
-    input{
-        border-radius: 0.5rem;
-        height: 2rem;
-        margin-top: 20px;
-        width: 100%;
-    }
-    /* AFILIADOS  */
-    .main-afiliados {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: auto;
-    }
-
-    .tituloGrilla {
-        text-align: center;
-        justify-content: center;
-
-    }
-
-    .tituloAfiliados {
-        text-align: center;
-        justify-content: center;
-    }
-} 
-
-    
-
-
+  /* CONTACTO */
+  .mapa {
+    width: 100%;
+    justify-content: center;
+    text-align: center; }
+  .maincontacto {
+    display: flex;
+    width: auto; }
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10rem; }
+  form {
+    display: flex;
+    border: black solid 1px;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    text-align: start; }
+  input {
+    border-radius: 0.5rem;
+    height: 2rem;
+    margin-top: 20px;
+    width: 100%; }
+  /* AFILIADOS  */
+  .main-afiliados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto; }
+  .tituloGrilla {
+    text-align: center;
+    justify-content: center; }
+  .tituloAfiliados {
+    text-align: center;
+    justify-content: center; } }
 
 /* responsive desde 375 a 768*/
-
-
-@media all and (min-width:376px) and (max-width: 900px) {
-    
-    
- /* header */
-    header{
-        width: 100%;
-        height: auto;
-    }
-    
-    h1 {
-        text-align: center;
-        color: black;
-    }
-     nav{
-        display: none;
-    }
-
-
-    /*publicidad SECTION */
-        
-        section{
-            display: grid;
-            text-align: center;
-            width: 100%;
-        }    
-    
-        .seccion-publicidad {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            height: auto;
-            text-align: center;
-            justify-content: center;
-            background-color: transparent;
-            margin-bottom: 1rem;
-
-
-        }
-    
-        iframe{
-            width: 90%;
-            height: 350px;
-
-        }
-    
-
-
-
-
-
- /* main */
-    main{
-        display: grid;
-        grid-template-rows: 10% 90%;
-        text-align: center;
-        width: 100%;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-
-    .noticias{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    .titulo-noticias{
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .noticias img{
-        width: 100%;
-        height: auto;
-    }
-
-    .covid{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        padding-bottom: 10%;
-
-    }
-
-    .covid h2{
-        margin-bottom: 10px;
-    }
-    .covid img{
-        width: 100%;
-        padding: 0%;
-        height: auto;
-
-    }
-
-
-    .covid p{
-        font-weight: bold ;
-        text-align: center;
-        padding: 0.5rem;
-
-    }
-
-    input{
-        display: flex;
-        font-weight: bold;
-        justify-content: center;
-    }
-
-
-    .noticiaAplicacion{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        padding-bottom:100px;
-        text-align: center;
-    }
-
-    
-
-
-
-    /* footer */
-
-    .footer {
-        font-size: 1.2rem;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .seccion-redes{
-        clear:none;
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #0052d4;
-        justify-content: center;
-        padding: 0.3rem;
-        height: 100px;
-        
-    }
-
-
-    .redes1{
-        display: none;
-    }
-
-    .redes  {
-        display: none;
-
-    }
-
-
-
-
-    /* NOSOTROS*/
-    
-    .main-nosotros {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        
-    }
-    
-    .titulo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
-    .texto {
-        display: flex;
-        flex-wrap: wrap;
-        font-weight: bold;
-        width: 100%;
-        padding: 20px;
-        
-    }
-    .texto p {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 18px;
-        width: 100%;
-        height: auto;
-        
-        
-    }
-    
-    .texto img {
-        display: flex;
-        flex-wrap: wrap;
-        box-shadow: 25px 10px 10px 4px gray;
-        width: 100%;
-
-        height: auto;
-        
-    }
-    /* SERVICIOS*/
-    
-    .lista1 {
-        display: flex;
-        text-align: start;
-        padding: 1.9rem;
-        margin: 0px;
-        font-size: 1.2rem; 
-    }
-    .servicios {
-        display: flex;
-        justify-content: center;
-    }
-    
-    
-    
-    /* CONTACTO */
-
-    .mapa {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
-
-    .mainContacto {
-        display: flex;
-        flex-wrap: wrap;
-        width: auto;
-        justify-content: center;
-        text-align: start;
-        height: auto;
-    }
-    .contacto{
-        display: flex;
-        padding: 5rem;
-        height: auto;
-       
-    }
-    
-    form{
-        display: flex;
-        flex-direction: column;
-        row-gap: 12px;
-        border: black solid 1px;
-        width: 100%;
-        height: auto;
-        border-radius: 0.5rem;
-        box-sizing: border-box;
-        height: auto;
-        
-    }
-
-
-    
-    input{
+@media all and (min-width: 376px) and (max-width: 900px) {
+  /* header */
+  header {
+    width: 100%;
+    height: auto; }
+  h1 {
+    text-align: center;
+    color: black; }
+  nav {
+    display: none; }
+  /*publicidad SECTION */
+  section {
+    display: grid;
+    text-align: center;
+    width: 100%; }
+  .seccion-publicidad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 1rem; }
+  iframe {
+    width: 90%;
+    height: 350px; }
+  /* main */
+  main {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    text-align: center;
+    width: 100%; }
+  h2 {
+    text-align: center; }
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center; }
+  .titulo-noticias {
+    margin-top: 1rem;
+    width: 100%; }
+  .noticias img {
+    width: 100%;
+    height: auto; }
+  .covid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 10%; }
+  .covid h2 {
+    margin-bottom: 10px; }
+  .covid img {
+    width: 100%;
+    padding: 0%;
+    height: auto; }
+  .covid p {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem; }
+  input {
+    display: flex;
+    font-weight: bold;
+    justify-content: center; }
+  .noticiaAplicacion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 100px;
+    text-align: center; }
+  /* footer */
+  .footer {
+    font-size: 1.2rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+  .seccion-redes {
+    clear: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0052d4;
+    justify-content: center;
+    padding: 0.3rem;
+    height: 100px; }
+  .redes1 {
+    display: none; }
+  .redes {
+    display: none; }
+  /* NOSOTROS*/
+  .main-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; }
+  .texto {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px; }
+  .texto p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 100%;
+    height: auto; }
+  .texto img {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 25px 10px 10px 4px gray;
+    width: 100%;
+    height: auto; }
+  /* SERVICIOS*/
+  .lista1 {
+    display: flex;
+    text-align: start;
+    padding: 1.9rem;
+    margin: 0px;
+    font-size: 1.2rem; }
+  .servicios {
+    display: flex;
+    justify-content: center; }
+  /* CONTACTO */
+  .mapa {
+    width: 100%;
+    justify-content: center;
+    text-align: center; }
+  .mainContacto {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    text-align: start;
+    height: auto; }
+  .contacto {
+    display: flex;
+    padding: 5rem;
+    height: auto; }
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    border: black solid 1px;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    height: auto; }
+  input {
     border-radius: 0.5rem;
     height: 2rem;
     width: 90%;
     justify-items: center;
-    box-sizing: border-box;
-    }
-        
-    .contenedorFormulario{
-        display: flex;
-        justify-content: center;
-        height: auto;
-    }
-    
-    /* AFILIADOS  */
-    
-    .main-afiliados {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-    }
-
-    .tituloGrilla {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 50px;
-        margin-bottom: 200px;
-    } 
-
-    
-}
+    box-sizing: border-box; }
+  .contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    height: auto; }
+  /* AFILIADOS  */
+  .main-afiliados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%; }
+  .tituloGrilla {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 200px; } }
