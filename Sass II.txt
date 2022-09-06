@@ -1,0 +1,5 @@
+Utilice el map para cambiar el estilo del color del header y el footer ademas le di un tamaño de fuente al nav y al texto de las noticias.
+
+El extend lo use para darle color, alineacion y cambio de fuente a los textos de las noticias del index.
+
+El mixin lo use para cambiar el formato del texto en la seccion Nosotros, aplicando tamaño, fuente, padding y poniendole negrita.
