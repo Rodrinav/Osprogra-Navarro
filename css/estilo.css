@@ -367,7 +367,7 @@ footer {
   .seccion-redes {
     display: flex;
     flex-wrap: wrap;
-    background-color: #0052d4;
+    background-color: #004881;
     justify-content: center;
     padding: 0.3rem; }
   .redes1 {
@@ -410,7 +410,7 @@ footer {
     text-align: center; }
   .maincontacto {
     display: flex;
-    width: auto; }
+    width: 100%; }
   .contacto {
     display: flex;
     flex-wrap: wrap;
@@ -533,7 +533,7 @@ footer {
     clear: none;
     display: flex;
     flex-wrap: wrap;
-    background-color: #0052d4;
+    background-color: #004881;
     justify-content: center;
     padding: 0.3rem;
     height: 100px; }
@@ -587,7 +587,7 @@ footer {
   .mainContacto {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     justify-content: center;
     text-align: start;
     height: auto; }
