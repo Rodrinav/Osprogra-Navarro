@@ -10,7 +10,7 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
-  color: red; }
+  color: black; }
 
 .noticias p {
   font-size: 15px; }
@@ -19,11 +19,12 @@ header {
   width: 100%;
   height: auto;
   font-family: 'Poppins', sans-serif;
-  background-color: tomato; }
+  background-color: #004881; }
   header h1 {
     text-align: left;
     font-size: 60px;
-    color: white; }
+    color: white;
+    margin-left: 20px; }
   header nav {
     font-size: 1rem;
     font-weight: bold; }
@@ -31,10 +32,9 @@ header {
 .seccion-publicidad {
   justify-content: center;
   text-align: center; }
-
-h2 {
-  text-align: center;
-  font-size: 40px; }
+  .seccion-publicidad h2 {
+    text-align: center;
+    font-size: 40px; }
 
 /* Noticias */
 .titulo-noticias {
@@ -68,40 +68,35 @@ h2 {
 /* redes */
 .seccion-redes {
   clear: both;
-  background-color: tomato;
-  bottom: 5px; }
-
-.redes img {
-  margin-right: 20px; }
-
-.redes {
-  text-align: center;
-  font-family: 'Ibarra Real Nova', serif;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 18px;
-  color: black;
-  height: 40px; }
-
-.footer {
-  text-align: center;
-  font-family: 'Ibarra Real Nova', serif;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 18px;
-  color: black; }
-
-.logoInstagram {
-  text-align: center;
-  max-width: 2%; }
-
-.logoFacebook {
-  text-align: center;
-  max-width: 2%; }
-
-.logoTwitter {
-  text-align: center;
-  max-width: 2%; }
+  background-color: #004881;
+  bottom: 5px;
+  margin-top: 100px; }
+  .seccion-redes .footer {
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 18px;
+    color: black; }
+  .seccion-redes .redes img {
+    margin-right: 20px; }
+  .seccion-redes .redes {
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    height: 40px; }
+  .seccion-redes .logoInstagram {
+    text-align: center;
+    max-width: 2%; }
+  .seccion-redes .logoFacebook {
+    text-align: center;
+    max-width: 2%; }
+  .seccion-redes .logoTwitter {
+    text-align: center;
+    max-width: 2%; }
 
 /* NOSOTROS*/
 .titulo {
@@ -411,21 +406,6 @@ footer {
     box-shadow: 25px 10px 10px 4px gray;
     width: 100%;
     height: auto; }
-  /* SERVICIOS*/
-  /* .gridPadreServicios {
-        display: grid;
-    }
-    
-    .lista1 {
-        display: flex;
-        justify-content: center;
-        font-size: 1.2rem; 
-    }
-    .servicios {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    } */
   /* CONTACTO */
   .mapa {
     width: 100%;
