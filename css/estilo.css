@@ -120,9 +120,6 @@ header {
   text-align: center; }
 
 /* CONTACTO */
-.mapa p {
-  font-weight: bold; }
-
 .contacto {
   display: flex;
   justify-content: center;
